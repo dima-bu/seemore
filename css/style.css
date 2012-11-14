@@ -1,0 +1,34 @@
+
+
+
+.dehiscing_list {
+    overflow: hidden;
+}
+
+.dehiscing_list li {
+
+	padding: 2%;
+        width: 29%;
+}
+
+.dehiscing_list li div {
+    background-color:#78DB15;
+    height:120px;
+
+}
+
+.dehiscing_list.with_transition {
+      transition:height 1s;
+    -moz-transition:height 1s;
+    -webkit-transition:height 1s;
+    -o-transition:height 1s;
+}
+
+
+
+
+.inline-b {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
