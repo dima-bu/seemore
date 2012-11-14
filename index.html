@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>Страница с открывающимся списком</title>
+<meta name="description" content="/result/meta/description">
+<meta name="author" content="/result/meta/keywords">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/modernizr-2.6.1.min.js"></script>
+<script src="js/jquery-1.8.0.min.js"></script>
+<!--<script src="js/load_img.js"></script>-->
+<script src="js/additems_plugin.js"></script>
+
+<script>
+    jQuery(document).ready(function() {
+    $('.dehiscing_list').seemore({
+                'InitialLines' : 3, // Начальное количество линий
+                'ButtonId' : '#see_more', // ID кнопки на которую повешан клик
+                'AmountOfAdded' : 3, // количество добавляемых элементов
+                'SpeedTransition' : 1, // время анимации в секундах для одного ряда,
+                'Prefix' : 'all' // префикс для страницы с полным колечесвтом элементов в спискеЫ
+    });
+    });
+</script>
+
+</head>
+<body>
+
+<div>
+
+<ul class="dehiscing_list" id="dehiscing_list">
+<li class="inline-b"><div class="innertube">1</div></li>
+<li class="inline-b"><div class="innertube">2</div></li>
+<li class="inline-b"><div class="innertube">3</div></li>
+<li class="inline-b"><div class="innertube">4</div></li>
+<li class="inline-b"><div class="innertube">5</div></li>
+<li class="inline-b"><div class="innertube">6</div></li>
+<li class="inline-b"><div class="innertube">7</div></li>
+<li class="inline-b"><div class="innertube">8</div></li>
+<li class="inline-b"><div class="innertube">9</div></li>
+<li class="inline-b"><div class="innertube">10</div></li>
+<li class="inline-b"><div class="innertube">11</div></li>
+<li class="inline-b"><div class="innertube">12</div></li>
+</ul>
+
+
+<div style="text-align: center; margin-bottom: 30px;"><a href="#" class="see_more" id="see_more">показать больше</a></div>
+
+
+</div>
+
+</body>
+</html>
