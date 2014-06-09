@@ -1,6 +1,6 @@
 seemore - jQuery plugin - add elements to list by ajax
 
-demo - http://nggalaxy.sb0.ru/architecture-design/interer/
+demo - http://www.spacebox.ru/ru/works/
 
 Technology: jQuery, Modernizr, Ajax
 
